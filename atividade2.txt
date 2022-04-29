@@ -1,4 +1,4 @@
---exercicio1
+
 
 CREATE TABLE professor (
 	cpf char (11),
@@ -89,7 +89,6 @@ CREATE TABLE "alunoTurma" (
 
 FROM * SELECT "alunoTurma";
 
---exercicio2
 
 ALTER TABLE "preReq" RENAME TO preRequisito;
 ALTER TABLE aluno ADD COLUMN "RG" char(11);
